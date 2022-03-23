@@ -14,26 +14,26 @@ function subtrair(valor1, valor2) {
 }
 
 function handleBtMult() {
-    const v1 = document.getElementById('valor1').value
-    const v2 = document.getElementById('valor2').value
-    document.getElementById('resultado').innerHTML = 'ok'
+    const v1 = Number(document.getElementById('valor1').value)
+    const v2 = Number(document.getElementById('valor2').value)
+    document.getElementById('resultado').innerHTML = multiplicar(v1, v2)
 }
 
 function handleBtSomar () {
-    const v1 = (document.getElementById('valor1').value)
-    const v2 = (document.getElementById('valor2').value)
+    const v1 = Number(document.getElementById('valor1').value)
+    const v2 = Number(document.getElementById('valor2').value)
     document.getElementById('resultado').innerHTML = somar(v1, v2)
 }
 
 function handleBtSub () {
-    const v1 = (document.getElementById('valor1').value)
-    const v2 = (document.getElementById('valor2').value)
+    const v1 = Number(document.getElementById('valor1').value)
+    const v2 = Number(document.getElementById('valor2').value)
     document.getElementById('resultado').innerHTML = subtrair(v1, v2)
 }
 
 function handleBtDiv () {
-    const v1 = (document.getElementById('valor1').value)
-    const v2 = (document.getElementById('valor2').value)
+    const v1 = Number(document.getElementById('valor1').value)
+    const v2 = Number(document.getElementById('valor2').value)
     document.getElementById('resultado').innerHTML = dividir(v1, v2)
 }
 
