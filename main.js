@@ -16,7 +16,7 @@ function subtrair(valor1, valor2) {
 function handleBtMult() {
     const v1 = document.getElementById('valor1').value
     const v2 = document.getElementById('valor2').value
-    document.getElementById('resultado').innerHTML = multiplicar(v1, v2)
+    document.getElementById('resultado').innerHTML = 'ok'
 }
 
 function handleBtSomar () {
