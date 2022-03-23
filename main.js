@@ -22,7 +22,7 @@ function handleBtMult() {
 function handleBtSomar () {
     const v1 = (document.getElementById('valor1').value)
     const v2 = (document.getElementById('valor2').value)
-    parseINT = document.getElementById('resultado').innerHTML = somar(v1, v2)
+    parseINT = (document.getElementById'resultado').innerHTML = somar(v1, v2)
 }
 
 function handleBtSub () {
